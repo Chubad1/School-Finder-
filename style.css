@@ -5,3 +5,52 @@
 #register {
     margin-top: 8%;
 }
+
+.box{
+    margin: 20%;
+}
+
+.form-box{
+    height: 100vh;
+    background-image: linear-
+    gradient(rgba(0,0,0.5)),url(image.jp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+h1
+{
+    color: #fff;
+    margin-bottom: 70px;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+.search-field
+{
+     height: 50px;
+     padding: 10px;
+     border: none;
+     border-radius: 25px;
+     outline: none;
+} 
+
+.buisiness
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
