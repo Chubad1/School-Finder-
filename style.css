@@ -18,12 +18,13 @@
     background-position: center;
     display: flex;
     justify-content: center;
+
     align-items: center;
     font-family: sans-serif;
 }
 h1
 {
-    color: #fff;
+    color: black;
     margin-bottom: 70px;
     font-size: 45px;
     letter-spacing: 2px;
@@ -38,9 +39,74 @@ h1
      outline: none;
 } 
 
-.buisiness
 
 
+
+  /* Career Path  */
+  .header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+
+  
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .header{
+    color: black;
+    margin-right: 50%;
+  }
+
+  .faqheading{
+    color: red;
+  }
+
+  #faqsection{
+    margin-top: 10%;
+    border: 2px solid red;
+    padding: 2%;
+    
+  }
+  .faqheader{
+    color: blue;
+    text-align: center;
+    margin-top: 5%;
+  }
 
 
 
