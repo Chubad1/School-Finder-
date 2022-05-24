@@ -66,11 +66,12 @@ h1 {
 }
 
 /* Footer */
-.footer {
+#footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: rgba(250, 250, 250, 0.7);
   margin-top: 20px;
+ border-top: 3px solid #eaeaea;
 }
 
 
@@ -131,7 +132,7 @@ FAQ SECTION */
 .faheader {
   color: black;
   text-align: center;
-  margin-bottom 60%;
+  margin-bottom: 60%;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -140,3 +141,22 @@ FAQ SECTION */
   color: red;
 }
 
+#igicon, #twittericon, #facebookicon{
+  font-size: 50px;
+  margin-top: 5%;
+}
+
+#twittericon{
+  margin-left: 10%;
+  color: #1DA1F2;
+
+}
+
+#facebookicon{
+  margin-left: 10%;
+  color: #4267B2;
+}
+
+#igicon{
+  color: #e95950;
+}
